@@ -4,6 +4,7 @@ from bardapi import Bard
 import json
 
 # This project is developed by Sakshi Karanje
+# This project uses Bard API to demonstrate chatbot functionality
 with open('credentials.json', 'r') as f:
     file = json.load(f)
     token = file['token']
