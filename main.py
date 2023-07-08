@@ -3,6 +3,7 @@ from streamlit_chat import message
 from bardapi import Bard
 import json
 
+# This project is developed by Sakshi Karanje
 with open('credentials.json', 'r') as f:
     file = json.load(f)
     token = file['token']
